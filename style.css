@@ -6,7 +6,7 @@
 
 
 #one{
-    background-color: chocolate;
+    background-color: #B17EC1;
     background-image: url("images/pexels-mikhail-nilov-7827819.jpg");
     background-size: cover;
     height: 990px; 
@@ -24,12 +24,14 @@ nav{
     margin-left: 20px;
     margin-top: 10px;
     padding: 15px;
-    font-size: 16px;
+    font-size:1.3vw;
+
     border: 4px solid white;
     font-weight: lighter;
 }
 .navlink{
-    font-size: 24px;
+    font-size:1.3vw;
+
     font-weight: bold;
     float: right;
 }
@@ -50,21 +52,23 @@ li a {
     text-decoration: none;
 }
 
-.learn-daily {
-    position: absolute;
+.daily {
     text-transform: uppercase;
     color: white;
-    font-size: 120px;
+    font-size:9vw;
     font-weight: 800;
-    margin-left: 30px;
-    margin-top: 770px;
+    text-align: left;
+    position: absolute;
+    top: 85%;
+    left: 39%;
+    transform: translate(-50%, -50%);
   }
 .centered {
     color: white;
     font-size: 25px;
     position: absolute;
     top: 95%;
-    font-size: 30px;
+    font-size:1.6vw;
     font-weight: bold;
     left: 47%;
     text-transform: uppercase;
@@ -82,6 +86,8 @@ li a {
     padding-right: 25px;
     display: inline-block;
     margin-right: 50px;
+    font-size:1.3vw;
+
   }
   .bottom-right p {
     float: left;
@@ -102,17 +108,23 @@ li a {
 /* section two start */
 #two{
     background-color: grey;
-    height: 300px;
 }
 .brain img{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 50%;
-    margin-top: 30px;
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 30px;
 }
 .from {
     text-align: center;
+    padding-bottom: 20px;
+}
+.from p{
+    font-size: 1.0vw;
+    top: 50%;
 }
 /* section two end */  
 
@@ -122,12 +134,14 @@ li a {
     font-size: 25px;
 }
 .three h1 {
-    font-size: 35px;
+    font-size: 1.8vw;
+
     text-transform: uppercase;
     margin-top: -25px;
 }
 .three p {
-    font-size: 16px;
+    font-size: 0.9vw;
+
 }
 #three img {
     height: 500px;
@@ -174,42 +188,49 @@ li a {
 
 /* section four start */ 
 #four {
-    background-color: goldenrod;
+    background-color: #D2D7A1;
     padding-bottom: 50px;
 }
 .habit{
     float: left;
-    width: 60%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    width: 40%;
+   display: flex;
+    justify-content: center; 
 }
 
 .habit img {
-    width: 50px;
-    height: 50px;
-    margin-left: 99px;
-    margin-top: 80px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    width: 80%;
+    padding-top: 30px;
+
+}
+
+.noun {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.6vw;
+    width: 80%;
+    display: flex;
     justify-content: center;
 
 }
-.habit h3{
-    text-transform: uppercase;
-    color: white;
-    font-size: 40px;
-    display: flex;
-}
 .habit p {
+    font-size: 1.0vw;
+    display: block;
+    float: center;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
-    font-size: 22px;
-    margin-left: -199px;
 }
 .quiz{
     float: right;
     width: 40%;
     padding-left: 20px;
-    padding-top: 150px;
+    padding-top: 100px;
+    font-size: .9vw;
+
 }
 .quiz img {
     height: 30px;
@@ -229,6 +250,8 @@ li a {
 .arrow p{
     text-transform: uppercase;
     float: left;
+    font-size: 0.8vw;
+
 }
 /* section four end */ 
 
@@ -243,11 +266,14 @@ li a {
 #five h1{
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.4vw;
+
 }
 .course {
     float: left;
     width: 40%;
+    font-size: 1.0vw;
+
 }
 
 .search {
@@ -267,7 +293,8 @@ li a {
 .search p {
     text-transform: uppercase;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 1.1vw;
+
 }
 #row-one{
     margin-bottom: -19px;
@@ -276,7 +303,6 @@ li a {
 .column {
     float: left;
     width: 20%;
-    /* padding: 0px; */
   }
 
 .column img {
@@ -284,6 +310,7 @@ li a {
     max-height: 100%;
     object-fit: fill;
 }
+
 /* Container holding the image and the text */
 .container {
     position: relative;
@@ -295,8 +322,10 @@ li a {
   .bottom-left {
     position: absolute;
     bottom: 8px;
-    font-size: 18px;
-    background-color: chocolate;
+    font-size: .9vw;
+
+    background-color: #A887A4;
+    text-transform: uppercase;
     width: 100%;
     margin-left: 0px;
     margin-bottom: -5px;
@@ -307,8 +336,8 @@ li a {
   .bottom-left-2 {
     position: absolute;
     bottom: 8px;
-    font-size: 18px;
-    background-color: white;
+    font-size: .9vw;
+    background-color: #EAE7E2;
     color: brown;
     text-transform: uppercase;
     width: 100%;
@@ -327,20 +356,21 @@ li a {
     text-transform: uppercase;
     text-align: center;
     color: white;
-}
+}  
 /* section five end */ 
 
 
 /* section six start */ 
 #six{
-    background-color: brown;
+    background-color: #B17EC1;
     padding-left: 20px;
     padding-top: 40px;
     padding-bottom: 90px;
 }
 #six h2 {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.3vw;
+
     margin-bottom: -35px;
 }
 
@@ -360,7 +390,69 @@ li a {
     padding-top: 30px;
   }
   #number {
-    font-size: 30px;
+    font-size: 1.2vw;
     margin-bottom: -40px;
   }
+  #text {
+    font-size: .9vw;
+
+  }
+  .footer {
+    font-size: .9vw;
+
+  }
 /* section six end */ 
+
+
+/* media screens start */
+
+/* @media (max-width:1199px)
+{
+    .one .two .three .four .five .six
+    {
+        left: -270px;
+    }
+    .one .two .three .four .five
+    {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width:991px)
+{
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .one .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img
+    {
+        display: none;
+    }
+}
+@media (max-width:767px)
+{
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} */
+
+
+/* media screens end */
